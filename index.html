@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <!-- Standard head.tmpl.partial from 'default' template. v2.63.1
+   When you have rendering issues, check if this is the latest version
+   with 'docfx template export default -o <path-to-a-local-folder>' -->
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>TaskManager Documentation | QuickStart Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="TaskManager Documentation | QuickStart Documentation ">
+    
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="stylesheet" href="styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="styles/docfx.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <!-- Added support for copy code button. Together with script in scripts.tmpl.partial -->
+      <link rel="stylesheet" href="styles/copy-code-button.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="images/logo.png" alt="QUickStart Documentation">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="taskmanager-documentation">TaskManager Documentation</h1>
+
+<p>The Task Manager is a multi-part assignment for North Metro TAFE C# OOP Unit, part of the Diploma of ICT - Advanced Programming.
+This documentation is part of Part 4 of the assessment; documentating usage of the code so far.</p>
+<p>These docs have been created using <a href="https://dotnet.github.io/docfx/index.html">DocFX</a> to generate a static website.
+An alternate set of docs have been created using <a href="https://ewsoftware.github.io/SHFB/html/bd1ddb51-1c4f-434f-bb1a-ce2135d3a909.htm">Sandcastle</a>, however the results of docFx were preferable.
+An attempt to manually write docs in Markdown using <a href="https://obsidian.md/">Obsidian</a>, however this was abandoned due to the inability to keep in sync with the codebase.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>TLDR;</strong>
+This project was created for an Assignment</p>
+</div>
+<h2 id="quick-start">Quick Start</h2>
+<p>The following C# code may be sufficient to get up and running with the TaskManagerCore.</p>
+<pre><code class="lang-c#">using TaskManagerCore;
+using TaskManagerCore.Controller;
+using TaskManagerCore.Model;
+using TaskManagerCore.Model.Dto;
+
+namespace MyApp {
+  class TaskManagerSample
+  {
+    private readonly TaskController TaskManager =
+                            TaskManagerFactory.CreateDefaultTaskManager();
+
+    public void CreateFolderAndTask()
+    {
+      TaskManager.CreateTaskFolder(new CreateFolderDto(&quot;Work&quot;)); // Folder called 'work'
+      TaskManager.CreateTaskFolder(new CreateFolderDto(&quot;School&quot;)); // Folder called 'school'
+
+      var task = new CreateTaskDto(TaskType.SINGLE,
+              &quot;work&quot;, // folder created above (case-insensitive)
+              &quot;A new task&quot;,
+              &quot;&quot;,
+              DateTime.Now.AddDays(1)
+              );
+
+      // Creating a Task
+      var taskId = TaskManager.CreateTask(task);
+
+      // Updating Task data
+      var success = TaskManager.UpdateTaskProperty(taskId, &quot;description&quot;, &quot;Project Due&quot;);
+
+      // Move a Task to another folder
+      var success1 = TaskManager.MoveTask(taskId, &quot;work&quot;, &quot;school&quot;); // from 'work' to 'school' folder
+
+      // Complete a task
+      var success2 = TaskManager.CompleteTask(taskId);
+
+      // Check incomplete task count
+      var incompleteCount = TaskManager.CountIncompleteInFolder(&quot;school&quot;);
+    }
+  }
+}
+</code></pre>
+<h2 id="overview-of-docs">Overview of Docs</h2>
+<ul>
+<li><a href="general/README.html">General Documentation</a></li>
+<li><a href="services/README.html">Service Documentation</a>
+<ul>
+<li><a href="services/TaskController/README.html">TaskController Documentation</a></li>
+<li><a class="xref" href="reference/TaskManagerCore.html">TaskManagerCore Namespace Reference</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="project-structure">Project structure</h2>
+<pre><code class="lang-xaml">📂TaskManager // root
+  📂BinaryFileHandler // for Assessment Part 2 - Binary File Handling
+  📂docs // documentation root
+    📂_site // documentation site
+      📄These Docs
+  📂InMemoryCache // for Assessment Part 3 - Indexing
+  📂InMemoryCache.XunitTests // for testing Part 3
+  📂TaskManagerConsoleApp // for Assessment Part 1 - Console output
+  📂TaskManagerCore // Application core
+  📂TaskManagerCore.XunitTests // tests for application core
+  📄TaskManager.sln // Visual Studio Solution file
+  📄readme.md // original Readme file
+</code></pre>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Standard scripts.tmpl.partial from 'default' template. v2.63.1
+     When you have rendering issues, check if this is the latest version
+     with 'docfx template export default -o <path-to-a-local-folder>' -->
+
+    <script type="text/javascript" src="styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+
+    <!-- Added support for copy code button. Together with script in scripts.tmpl.partial -->
+    <script type="text/javascript" src="styles/copy-code-button.js"></script>
+
+    <!-- Support for diagrams (Mermaid). See https://mermaid.js.org/intro/n00b-gettingStarted.html -->
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>  </body>
+</html>

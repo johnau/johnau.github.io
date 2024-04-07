@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <!-- Standard head.tmpl.partial from 'default' template. v2.63.1
+   When you have rendering issues, check if this is the latest version
+   with 'docfx template export default -o <path-to-a-local-folder>' -->
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Architecture Decisions | QuickStart Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Architecture Decisions | QuickStart Documentation ">
+    
+      <link rel="shortcut icon" href="../../images/favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../styles/docfx.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <!-- Added support for copy code button. Together with script in scripts.tmpl.partial -->
+      <link rel="stylesheet" href="../../styles/copy-code-button.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo.png" alt="QUickStart Documentation">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="architecture-decisions">Architecture Decisions</h1>
+
+<p>Information about Architectural Decisions...</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>ADR style used: <a href="https://github.com/microsoft/code-with-engineering-playbook/tree/main/docs/design/design-reviews">CSE Playbook - Design Reviews</a>.</p>
+</div>
+<h2 id="part1---taskmanager">Part1 - TaskManager</h2>
+<p>Exploring concepts:</p>
+<ul>
+<li>Domain Driven Design (kind of); Service/Controller layer -&gt; Infrastructure layer -&gt; Domain/Model layer.  Separation through interfaces that could be improved with CDI/IoC.</li>
+<li>Repository + DAO combination that would allow better disconnection after IoC is implemented</li>
+<li>DTOs; looking at how to structure DTOs with the inheritance hierarchy of this assignment</li>
+<li>Immutable Builder pattern in Model classes</li>
+<li>Inheritance in testing -  Extending classes and implementing interfaces to create mock objects for tests.  Attempting to use inheritance in testing to avoid creating minimal excess to the classes</li>
+<li>Encapsulation in regards to tests - standard practice seems to be a separate assembly for tests - internal classes can be accessed with <code>[assembly: InternalsVisibleTo(&quot;TestingProject.Tests&quot;)]</code></li>
+<li>Writing C# 7.3 for .Net framework 4.8 (have been working with the conveniences of C#11+ up until now)</li>
+<li>Casting, implcit and explicit (coercion), <code>a.GetType() == typeof(Clazz)</code>, <code>is</code>, <code>as</code>, is with explicit cast <code>(a is Clazz b)</code>, user-defined conversion operators (static implicit/explicit operator extension methods)</li>
+</ul>
+<h2 id="part2---binary-files">Part2 - Binary Files</h2>
+<ul>
+<li>Structure used for the InMemoryStore (Memory namespace) has been copied to the BinaryFiles namespace - In practise, it would be one or the other for these &quot;persistence&quot; implementations, hence the duplication of the whole hierarchy.</li>
+<li>A Subscribeable wrapper around a Dictionary is used for the cache instead of just a Dictionary - this allows the BinaryFileWriter classes to respond to updates to the cache by writing the updates.</li>
+<li>File data is read one time, at load.  Data is accessed from the Cache from this point.  Some implementation to limit the cache would be nice, keeping just recently accessed data in the cache.</li>
+</ul>
+<h2 id="part3---search--index">Part3 - Search &amp; Index</h2>
+<ul>
+<li>Indexable Subscribeable Dictionary to proivde search and indexing functions.</li>
+<li>Crude console UI to provide some way to interact with the task manager api</li>
+</ul>
+<h2 id="tests">Tests</h2>
+<ul>
+<li>TaskManagerCore.XunitTests Package contains Unit tests for the relevant classes</li>
+<li>TaskManagerConsoleApp package contains an 'integration' test</li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>Implement <code>Task</code> object (Must inlcude immutable GUID Id, description, notes, completed flag, optional due date, overdue calculation)
+-- The TaskData object is implemented as an Immutable class in the Model layer, and as a mutable entity class (besides Id) in the Infrastructure layer.  The Id is protected from mutation inside the infrastructure layer since access to the package from outside is through a domain layer interface, obfuscating/decoupling persistence implementation behind.</li>
+<li>Implement repeating and repeating with streaks sub-classes
+-- Similar to above</li>
+<li>Implement Folders (with Name and List<string> of Task Id's, Total of Incomplete tasks in folder, add task method, remove task method) for tasks to be viewed through / grouped by.<br>
+-- The Total Count of Incomplete tasks in the folder has been shifted up the hierarchy and is currently handled at the controller level. (Interpreting the brief, it seems like the calculation is supposed to exist in the Folder class, however this would add some weight to what is currently a lightweight class.</string></li>
+<li>Implement static database; to be switched out for real database
+-- Started out with static holders, have switched around a bit to explore some various ideas/structures around the infrastructure/persistence layer.</li>
+</ul>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Standard scripts.tmpl.partial from 'default' template. v2.63.1
+     When you have rendering issues, check if this is the latest version
+     with 'docfx template export default -o <path-to-a-local-folder>' -->
+
+    <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+
+    <!-- Added support for copy code button. Together with script in scripts.tmpl.partial -->
+    <script type="text/javascript" src="../../styles/copy-code-button.js"></script>
+
+    <!-- Support for diagrams (Mermaid). See https://mermaid.js.org/intro/n00b-gettingStarted.html -->
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>  </body>
+</html>

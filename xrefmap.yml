@@ -1,0 +1,1518 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: TaskManagerCore
+  name: TaskManagerCore
+  href: reference/TaskManagerCore.html
+  commentId: N:TaskManagerCore
+  fullName: TaskManagerCore
+  nameWithType: TaskManagerCore
+- uid: TaskManagerCore.Configuration
+  name: TaskManagerCore.Configuration
+  href: reference/TaskManagerCore.Configuration.html
+  commentId: N:TaskManagerCore.Configuration
+  fullName: TaskManagerCore.Configuration
+  nameWithType: TaskManagerCore.Configuration
+- uid: TaskManagerCore.Configuration.ICrudRepository`2
+  name: ICrudRepository<T, ID>
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html
+  commentId: T:TaskManagerCore.Configuration.ICrudRepository`2
+  name.vb: ICrudRepository(Of T, ID)
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID)
+  nameWithType: ICrudRepository<T, ID>
+  nameWithType.vb: ICrudRepository(Of T, ID)
+- uid: TaskManagerCore.Configuration.ICrudRepository`2.Delete(`1)
+  name: Delete(ID)
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html#TaskManagerCore_Configuration_ICrudRepository_2_Delete__1_
+  commentId: M:TaskManagerCore.Configuration.ICrudRepository`2.Delete(`1)
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>.Delete(ID)
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID).Delete(ID)
+  nameWithType: ICrudRepository<T, ID>.Delete(ID)
+  nameWithType.vb: ICrudRepository(Of T, ID).Delete(ID)
+- uid: TaskManagerCore.Configuration.ICrudRepository`2.Delete*
+  name: Delete
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html#TaskManagerCore_Configuration_ICrudRepository_2_Delete_
+  commentId: Overload:TaskManagerCore.Configuration.ICrudRepository`2.Delete
+  isSpec: "True"
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>.Delete
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID).Delete
+  nameWithType: ICrudRepository<T, ID>.Delete
+  nameWithType.vb: ICrudRepository(Of T, ID).Delete
+- uid: TaskManagerCore.Configuration.ICrudRepository`2.FindAll
+  name: FindAll()
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html#TaskManagerCore_Configuration_ICrudRepository_2_FindAll
+  commentId: M:TaskManagerCore.Configuration.ICrudRepository`2.FindAll
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>.FindAll()
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID).FindAll()
+  nameWithType: ICrudRepository<T, ID>.FindAll()
+  nameWithType.vb: ICrudRepository(Of T, ID).FindAll()
+- uid: TaskManagerCore.Configuration.ICrudRepository`2.FindAll*
+  name: FindAll
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html#TaskManagerCore_Configuration_ICrudRepository_2_FindAll_
+  commentId: Overload:TaskManagerCore.Configuration.ICrudRepository`2.FindAll
+  isSpec: "True"
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>.FindAll
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID).FindAll
+  nameWithType: ICrudRepository<T, ID>.FindAll
+  nameWithType.vb: ICrudRepository(Of T, ID).FindAll
+- uid: TaskManagerCore.Configuration.ICrudRepository`2.FindById(`1)
+  name: FindById(ID)
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html#TaskManagerCore_Configuration_ICrudRepository_2_FindById__1_
+  commentId: M:TaskManagerCore.Configuration.ICrudRepository`2.FindById(`1)
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>.FindById(ID)
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID).FindById(ID)
+  nameWithType: ICrudRepository<T, ID>.FindById(ID)
+  nameWithType.vb: ICrudRepository(Of T, ID).FindById(ID)
+- uid: TaskManagerCore.Configuration.ICrudRepository`2.FindById*
+  name: FindById
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html#TaskManagerCore_Configuration_ICrudRepository_2_FindById_
+  commentId: Overload:TaskManagerCore.Configuration.ICrudRepository`2.FindById
+  isSpec: "True"
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>.FindById
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID).FindById
+  nameWithType: ICrudRepository<T, ID>.FindById
+  nameWithType.vb: ICrudRepository(Of T, ID).FindById
+- uid: TaskManagerCore.Configuration.ICrudRepository`2.FindByIds(System.Collections.Generic.List{`1})
+  name: FindByIds(List<ID>)
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html#TaskManagerCore_Configuration_ICrudRepository_2_FindByIds_System_Collections_Generic_List__1__
+  commentId: M:TaskManagerCore.Configuration.ICrudRepository`2.FindByIds(System.Collections.Generic.List{`1})
+  name.vb: FindByIds(List(Of ID))
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>.FindByIds(System.Collections.Generic.List<ID>)
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID).FindByIds(System.Collections.Generic.List(Of ID))
+  nameWithType: ICrudRepository<T, ID>.FindByIds(List<ID>)
+  nameWithType.vb: ICrudRepository(Of T, ID).FindByIds(List(Of ID))
+- uid: TaskManagerCore.Configuration.ICrudRepository`2.FindByIds*
+  name: FindByIds
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html#TaskManagerCore_Configuration_ICrudRepository_2_FindByIds_
+  commentId: Overload:TaskManagerCore.Configuration.ICrudRepository`2.FindByIds
+  isSpec: "True"
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>.FindByIds
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID).FindByIds
+  nameWithType: ICrudRepository<T, ID>.FindByIds
+  nameWithType.vb: ICrudRepository(Of T, ID).FindByIds
+- uid: TaskManagerCore.Configuration.ICrudRepository`2.Save(`0)
+  name: Save(T)
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html#TaskManagerCore_Configuration_ICrudRepository_2_Save__0_
+  commentId: M:TaskManagerCore.Configuration.ICrudRepository`2.Save(`0)
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>.Save(T)
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID).Save(T)
+  nameWithType: ICrudRepository<T, ID>.Save(T)
+  nameWithType.vb: ICrudRepository(Of T, ID).Save(T)
+- uid: TaskManagerCore.Configuration.ICrudRepository`2.Save*
+  name: Save
+  href: reference/TaskManagerCore.Configuration.ICrudRepository-2.html#TaskManagerCore_Configuration_ICrudRepository_2_Save_
+  commentId: Overload:TaskManagerCore.Configuration.ICrudRepository`2.Save
+  isSpec: "True"
+  fullName: TaskManagerCore.Configuration.ICrudRepository<T, ID>.Save
+  fullName.vb: TaskManagerCore.Configuration.ICrudRepository(Of T, ID).Save
+  nameWithType: ICrudRepository<T, ID>.Save
+  nameWithType.vb: ICrudRepository(Of T, ID).Save
+- uid: TaskManagerCore.Controller
+  name: TaskManagerCore.Controller
+  href: reference/TaskManagerCore.Controller.html
+  commentId: N:TaskManagerCore.Controller
+  fullName: TaskManagerCore.Controller
+  nameWithType: TaskManagerCore.Controller
+- uid: TaskManagerCore.Controller.TaskController
+  name: TaskController
+  href: reference/TaskManagerCore.Controller.TaskController.html
+  commentId: T:TaskManagerCore.Controller.TaskController
+  fullName: TaskManagerCore.Controller.TaskController
+  nameWithType: TaskController
+- uid: TaskManagerCore.Controller.TaskController.#ctor(TaskManagerCore.Model.Repository.ITaskDataRepository,TaskManagerCore.Model.Repository.ITaskFolderRepository)
+  name: TaskController(ITaskDataRepository, ITaskFolderRepository)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController__ctor_TaskManagerCore_Model_Repository_ITaskDataRepository_TaskManagerCore_Model_Repository_ITaskFolderRepository_
+  commentId: M:TaskManagerCore.Controller.TaskController.#ctor(TaskManagerCore.Model.Repository.ITaskDataRepository,TaskManagerCore.Model.Repository.ITaskFolderRepository)
+  name.vb: New(ITaskDataRepository, ITaskFolderRepository)
+  fullName: TaskManagerCore.Controller.TaskController.TaskController(TaskManagerCore.Model.Repository.ITaskDataRepository, TaskManagerCore.Model.Repository.ITaskFolderRepository)
+  fullName.vb: TaskManagerCore.Controller.TaskController.New(TaskManagerCore.Model.Repository.ITaskDataRepository, TaskManagerCore.Model.Repository.ITaskFolderRepository)
+  nameWithType: TaskController.TaskController(ITaskDataRepository, ITaskFolderRepository)
+  nameWithType.vb: TaskController.New(ITaskDataRepository, ITaskFolderRepository)
+- uid: TaskManagerCore.Controller.TaskController.#ctor*
+  name: TaskController
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController__ctor_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskManagerCore.Controller.TaskController.TaskController
+  fullName.vb: TaskManagerCore.Controller.TaskController.New
+  nameWithType: TaskController.TaskController
+  nameWithType.vb: TaskController.New
+- uid: TaskManagerCore.Controller.TaskController.CompleteTask(System.String,System.Boolean)
+  name: CompleteTask(string, bool)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_CompleteTask_System_String_System_Boolean_
+  commentId: M:TaskManagerCore.Controller.TaskController.CompleteTask(System.String,System.Boolean)
+  name.vb: CompleteTask(String, Boolean)
+  fullName: TaskManagerCore.Controller.TaskController.CompleteTask(string, bool)
+  fullName.vb: TaskManagerCore.Controller.TaskController.CompleteTask(String, Boolean)
+  nameWithType: TaskController.CompleteTask(string, bool)
+  nameWithType.vb: TaskController.CompleteTask(String, Boolean)
+- uid: TaskManagerCore.Controller.TaskController.CompleteTask*
+  name: CompleteTask
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_CompleteTask_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.CompleteTask
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.CompleteTask
+  nameWithType: TaskController.CompleteTask
+- uid: TaskManagerCore.Controller.TaskController.CountIncomplete(System.String)
+  name: CountIncomplete(string)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_CountIncomplete_System_String_
+  commentId: M:TaskManagerCore.Controller.TaskController.CountIncomplete(System.String)
+  name.vb: CountIncomplete(String)
+  fullName: TaskManagerCore.Controller.TaskController.CountIncomplete(string)
+  fullName.vb: TaskManagerCore.Controller.TaskController.CountIncomplete(String)
+  nameWithType: TaskController.CountIncomplete(string)
+  nameWithType.vb: TaskController.CountIncomplete(String)
+- uid: TaskManagerCore.Controller.TaskController.CountIncomplete*
+  name: CountIncomplete
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_CountIncomplete_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.CountIncomplete
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.CountIncomplete
+  nameWithType: TaskController.CountIncomplete
+- uid: TaskManagerCore.Controller.TaskController.CreateTask(TaskManagerCore.Model.Dto.CreateTaskDto)
+  name: CreateTask(CreateTaskDto)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_CreateTask_TaskManagerCore_Model_Dto_CreateTaskDto_
+  commentId: M:TaskManagerCore.Controller.TaskController.CreateTask(TaskManagerCore.Model.Dto.CreateTaskDto)
+  fullName: TaskManagerCore.Controller.TaskController.CreateTask(TaskManagerCore.Model.Dto.CreateTaskDto)
+  nameWithType: TaskController.CreateTask(CreateTaskDto)
+- uid: TaskManagerCore.Controller.TaskController.CreateTask*
+  name: CreateTask
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_CreateTask_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.CreateTask
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.CreateTask
+  nameWithType: TaskController.CreateTask
+- uid: TaskManagerCore.Controller.TaskController.CreateTaskFolder(TaskManagerCore.Model.Dto.CreateFolderDto)
+  name: CreateTaskFolder(CreateFolderDto)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_CreateTaskFolder_TaskManagerCore_Model_Dto_CreateFolderDto_
+  commentId: M:TaskManagerCore.Controller.TaskController.CreateTaskFolder(TaskManagerCore.Model.Dto.CreateFolderDto)
+  fullName: TaskManagerCore.Controller.TaskController.CreateTaskFolder(TaskManagerCore.Model.Dto.CreateFolderDto)
+  nameWithType: TaskController.CreateTaskFolder(CreateFolderDto)
+- uid: TaskManagerCore.Controller.TaskController.CreateTaskFolder*
+  name: CreateTaskFolder
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_CreateTaskFolder_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.CreateTaskFolder
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.CreateTaskFolder
+  nameWithType: TaskController.CreateTaskFolder
+- uid: TaskManagerCore.Controller.TaskController.DeleteTask(System.String)
+  name: DeleteTask(string)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_DeleteTask_System_String_
+  commentId: M:TaskManagerCore.Controller.TaskController.DeleteTask(System.String)
+  name.vb: DeleteTask(String)
+  fullName: TaskManagerCore.Controller.TaskController.DeleteTask(string)
+  fullName.vb: TaskManagerCore.Controller.TaskController.DeleteTask(String)
+  nameWithType: TaskController.DeleteTask(string)
+  nameWithType.vb: TaskController.DeleteTask(String)
+- uid: TaskManagerCore.Controller.TaskController.DeleteTask*
+  name: DeleteTask
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_DeleteTask_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.DeleteTask
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.DeleteTask
+  nameWithType: TaskController.DeleteTask
+- uid: TaskManagerCore.Controller.TaskController.DeleteTaskFolder(System.String)
+  name: DeleteTaskFolder(string)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_DeleteTaskFolder_System_String_
+  commentId: M:TaskManagerCore.Controller.TaskController.DeleteTaskFolder(System.String)
+  name.vb: DeleteTaskFolder(String)
+  fullName: TaskManagerCore.Controller.TaskController.DeleteTaskFolder(string)
+  fullName.vb: TaskManagerCore.Controller.TaskController.DeleteTaskFolder(String)
+  nameWithType: TaskController.DeleteTaskFolder(string)
+  nameWithType.vb: TaskController.DeleteTaskFolder(String)
+- uid: TaskManagerCore.Controller.TaskController.DeleteTaskFolder*
+  name: DeleteTaskFolder
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_DeleteTaskFolder_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.DeleteTaskFolder
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.DeleteTaskFolder
+  nameWithType: TaskController.DeleteTaskFolder
+- uid: TaskManagerCore.Controller.TaskController.DeleteTaskFromFolder(System.String,System.String)
+  name: DeleteTaskFromFolder(string, string)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_DeleteTaskFromFolder_System_String_System_String_
+  commentId: M:TaskManagerCore.Controller.TaskController.DeleteTaskFromFolder(System.String,System.String)
+  name.vb: DeleteTaskFromFolder(String, String)
+  fullName: TaskManagerCore.Controller.TaskController.DeleteTaskFromFolder(string, string)
+  fullName.vb: TaskManagerCore.Controller.TaskController.DeleteTaskFromFolder(String, String)
+  nameWithType: TaskController.DeleteTaskFromFolder(string, string)
+  nameWithType.vb: TaskController.DeleteTaskFromFolder(String, String)
+- uid: TaskManagerCore.Controller.TaskController.DeleteTaskFromFolder*
+  name: DeleteTaskFromFolder
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_DeleteTaskFromFolder_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.DeleteTaskFromFolder
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.DeleteTaskFromFolder
+  nameWithType: TaskController.DeleteTaskFromFolder
+- uid: TaskManagerCore.Controller.TaskController.GetTask(System.String)
+  name: GetTask(string)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_GetTask_System_String_
+  commentId: M:TaskManagerCore.Controller.TaskController.GetTask(System.String)
+  name.vb: GetTask(String)
+  fullName: TaskManagerCore.Controller.TaskController.GetTask(string)
+  fullName.vb: TaskManagerCore.Controller.TaskController.GetTask(String)
+  nameWithType: TaskController.GetTask(string)
+  nameWithType.vb: TaskController.GetTask(String)
+- uid: TaskManagerCore.Controller.TaskController.GetTask*
+  name: GetTask
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_GetTask_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.GetTask
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.GetTask
+  nameWithType: TaskController.GetTask
+- uid: TaskManagerCore.Controller.TaskController.GetTaskFolder(System.String)
+  name: GetTaskFolder(string)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_GetTaskFolder_System_String_
+  commentId: M:TaskManagerCore.Controller.TaskController.GetTaskFolder(System.String)
+  name.vb: GetTaskFolder(String)
+  fullName: TaskManagerCore.Controller.TaskController.GetTaskFolder(string)
+  fullName.vb: TaskManagerCore.Controller.TaskController.GetTaskFolder(String)
+  nameWithType: TaskController.GetTaskFolder(string)
+  nameWithType.vb: TaskController.GetTaskFolder(String)
+- uid: TaskManagerCore.Controller.TaskController.GetTaskFolder*
+  name: GetTaskFolder
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_GetTaskFolder_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.GetTaskFolder
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.GetTaskFolder
+  nameWithType: TaskController.GetTaskFolder
+- uid: TaskManagerCore.Controller.TaskController.GetTaskFolders
+  name: GetTaskFolders()
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_GetTaskFolders
+  commentId: M:TaskManagerCore.Controller.TaskController.GetTaskFolders
+  fullName: TaskManagerCore.Controller.TaskController.GetTaskFolders()
+  nameWithType: TaskController.GetTaskFolders()
+- uid: TaskManagerCore.Controller.TaskController.GetTaskFolders*
+  name: GetTaskFolders
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_GetTaskFolders_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.GetTaskFolders
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.GetTaskFolders
+  nameWithType: TaskController.GetTaskFolders
+- uid: TaskManagerCore.Controller.TaskController.GetTasks
+  name: GetTasks()
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_GetTasks
+  commentId: M:TaskManagerCore.Controller.TaskController.GetTasks
+  fullName: TaskManagerCore.Controller.TaskController.GetTasks()
+  nameWithType: TaskController.GetTasks()
+- uid: TaskManagerCore.Controller.TaskController.GetTasks(System.Collections.Generic.List{System.String})
+  name: GetTasks(List<string>)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_GetTasks_System_Collections_Generic_List_System_String__
+  commentId: M:TaskManagerCore.Controller.TaskController.GetTasks(System.Collections.Generic.List{System.String})
+  name.vb: GetTasks(List(Of String))
+  fullName: TaskManagerCore.Controller.TaskController.GetTasks(System.Collections.Generic.List<string>)
+  fullName.vb: TaskManagerCore.Controller.TaskController.GetTasks(System.Collections.Generic.List(Of String))
+  nameWithType: TaskController.GetTasks(List<string>)
+  nameWithType.vb: TaskController.GetTasks(List(Of String))
+- uid: TaskManagerCore.Controller.TaskController.GetTasks*
+  name: GetTasks
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_GetTasks_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.GetTasks
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.GetTasks
+  nameWithType: TaskController.GetTasks
+- uid: TaskManagerCore.Controller.TaskController.MoveTask(System.String,System.String,System.String)
+  name: MoveTask(string, string, string)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_MoveTask_System_String_System_String_System_String_
+  commentId: M:TaskManagerCore.Controller.TaskController.MoveTask(System.String,System.String,System.String)
+  name.vb: MoveTask(String, String, String)
+  fullName: TaskManagerCore.Controller.TaskController.MoveTask(string, string, string)
+  fullName.vb: TaskManagerCore.Controller.TaskController.MoveTask(String, String, String)
+  nameWithType: TaskController.MoveTask(string, string, string)
+  nameWithType.vb: TaskController.MoveTask(String, String, String)
+- uid: TaskManagerCore.Controller.TaskController.MoveTask*
+  name: MoveTask
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_MoveTask_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.MoveTask
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.MoveTask
+  nameWithType: TaskController.MoveTask
+- uid: TaskManagerCore.Controller.TaskController.UpdateFolderProperty(System.String,System.String,System.Object)
+  name: UpdateFolderProperty(string, string, object)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_UpdateFolderProperty_System_String_System_String_System_Object_
+  commentId: M:TaskManagerCore.Controller.TaskController.UpdateFolderProperty(System.String,System.String,System.Object)
+  name.vb: UpdateFolderProperty(String, String, Object)
+  fullName: TaskManagerCore.Controller.TaskController.UpdateFolderProperty(string, string, object)
+  fullName.vb: TaskManagerCore.Controller.TaskController.UpdateFolderProperty(String, String, Object)
+  nameWithType: TaskController.UpdateFolderProperty(string, string, object)
+  nameWithType.vb: TaskController.UpdateFolderProperty(String, String, Object)
+- uid: TaskManagerCore.Controller.TaskController.UpdateFolderProperty*
+  name: UpdateFolderProperty
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_UpdateFolderProperty_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.UpdateFolderProperty
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.UpdateFolderProperty
+  nameWithType: TaskController.UpdateFolderProperty
+- uid: TaskManagerCore.Controller.TaskController.UpdateTaskProperty(System.String,System.String,System.Object)
+  name: UpdateTaskProperty(string, string, object)
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_UpdateTaskProperty_System_String_System_String_System_Object_
+  commentId: M:TaskManagerCore.Controller.TaskController.UpdateTaskProperty(System.String,System.String,System.Object)
+  name.vb: UpdateTaskProperty(String, String, Object)
+  fullName: TaskManagerCore.Controller.TaskController.UpdateTaskProperty(string, string, object)
+  fullName.vb: TaskManagerCore.Controller.TaskController.UpdateTaskProperty(String, String, Object)
+  nameWithType: TaskController.UpdateTaskProperty(string, string, object)
+  nameWithType.vb: TaskController.UpdateTaskProperty(String, String, Object)
+- uid: TaskManagerCore.Controller.TaskController.UpdateTaskProperty*
+  name: UpdateTaskProperty
+  href: reference/TaskManagerCore.Controller.TaskController.html#TaskManagerCore_Controller_TaskController_UpdateTaskProperty_
+  commentId: Overload:TaskManagerCore.Controller.TaskController.UpdateTaskProperty
+  isSpec: "True"
+  fullName: TaskManagerCore.Controller.TaskController.UpdateTaskProperty
+  nameWithType: TaskController.UpdateTaskProperty
+- uid: TaskManagerCore.Model
+  name: TaskManagerCore.Model
+  href: reference/TaskManagerCore.Model.html
+  commentId: N:TaskManagerCore.Model
+  fullName: TaskManagerCore.Model
+  nameWithType: TaskManagerCore.Model
+- uid: TaskManagerCore.Model.Dto
+  name: TaskManagerCore.Model.Dto
+  href: reference/TaskManagerCore.Model.Dto.html
+  commentId: N:TaskManagerCore.Model.Dto
+  fullName: TaskManagerCore.Model.Dto
+  nameWithType: TaskManagerCore.Model.Dto
+- uid: TaskManagerCore.Model.Dto.CreateFolderDto
+  name: CreateFolderDto
+  href: reference/TaskManagerCore.Model.Dto.CreateFolderDto.html
+  commentId: T:TaskManagerCore.Model.Dto.CreateFolderDto
+  fullName: TaskManagerCore.Model.Dto.CreateFolderDto
+  nameWithType: CreateFolderDto
+- uid: TaskManagerCore.Model.Dto.CreateFolderDto.#ctor(System.String)
+  name: CreateFolderDto(string)
+  href: reference/TaskManagerCore.Model.Dto.CreateFolderDto.html#TaskManagerCore_Model_Dto_CreateFolderDto__ctor_System_String_
+  commentId: M:TaskManagerCore.Model.Dto.CreateFolderDto.#ctor(System.String)
+  name.vb: New(String)
+  fullName: TaskManagerCore.Model.Dto.CreateFolderDto.CreateFolderDto(string)
+  fullName.vb: TaskManagerCore.Model.Dto.CreateFolderDto.New(String)
+  nameWithType: CreateFolderDto.CreateFolderDto(string)
+  nameWithType.vb: CreateFolderDto.New(String)
+- uid: TaskManagerCore.Model.Dto.CreateFolderDto.#ctor*
+  name: CreateFolderDto
+  href: reference/TaskManagerCore.Model.Dto.CreateFolderDto.html#TaskManagerCore_Model_Dto_CreateFolderDto__ctor_
+  commentId: Overload:TaskManagerCore.Model.Dto.CreateFolderDto.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskManagerCore.Model.Dto.CreateFolderDto.CreateFolderDto
+  fullName.vb: TaskManagerCore.Model.Dto.CreateFolderDto.New
+  nameWithType: CreateFolderDto.CreateFolderDto
+  nameWithType.vb: CreateFolderDto.New
+- uid: TaskManagerCore.Model.Dto.CreateFolderDto.Name
+  name: Name
+  href: reference/TaskManagerCore.Model.Dto.CreateFolderDto.html#TaskManagerCore_Model_Dto_CreateFolderDto_Name
+  commentId: P:TaskManagerCore.Model.Dto.CreateFolderDto.Name
+  fullName: TaskManagerCore.Model.Dto.CreateFolderDto.Name
+  nameWithType: CreateFolderDto.Name
+- uid: TaskManagerCore.Model.Dto.CreateFolderDto.Name*
+  name: Name
+  href: reference/TaskManagerCore.Model.Dto.CreateFolderDto.html#TaskManagerCore_Model_Dto_CreateFolderDto_Name_
+  commentId: Overload:TaskManagerCore.Model.Dto.CreateFolderDto.Name
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.CreateFolderDto.Name
+  nameWithType: CreateFolderDto.Name
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto
+  name: CreateTaskDto
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html
+  commentId: T:TaskManagerCore.Model.Dto.CreateTaskDto
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto
+  nameWithType: CreateTaskDto
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.#ctor(System.String,System.String,System.String,System.Nullable{System.DateTime},TaskManagerCore.Model.TimeInterval,System.Boolean)
+  name: CreateTaskDto(string, string, string, DateTime?, TimeInterval, bool)
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto__ctor_System_String_System_String_System_String_System_Nullable_System_DateTime__TaskManagerCore_Model_TimeInterval_System_Boolean_
+  commentId: M:TaskManagerCore.Model.Dto.CreateTaskDto.#ctor(System.String,System.String,System.String,System.Nullable{System.DateTime},TaskManagerCore.Model.TimeInterval,System.Boolean)
+  name.vb: New(String, String, String, Date?, TimeInterval, Boolean)
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.CreateTaskDto(string, string, string, System.DateTime?, TaskManagerCore.Model.TimeInterval, bool)
+  fullName.vb: TaskManagerCore.Model.Dto.CreateTaskDto.New(String, String, String, Date?, TaskManagerCore.Model.TimeInterval, Boolean)
+  nameWithType: CreateTaskDto.CreateTaskDto(string, string, string, DateTime?, TimeInterval, bool)
+  nameWithType.vb: CreateTaskDto.New(String, String, String, Date?, TimeInterval, Boolean)
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.#ctor(TaskManagerCore.Model.TaskType,System.String,System.String,System.String,System.Nullable{System.DateTime},TaskManagerCore.Model.TimeInterval)
+  name: CreateTaskDto(TaskType, string, string, string, DateTime?, TimeInterval)
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto__ctor_TaskManagerCore_Model_TaskType_System_String_System_String_System_String_System_Nullable_System_DateTime__TaskManagerCore_Model_TimeInterval_
+  commentId: M:TaskManagerCore.Model.Dto.CreateTaskDto.#ctor(TaskManagerCore.Model.TaskType,System.String,System.String,System.String,System.Nullable{System.DateTime},TaskManagerCore.Model.TimeInterval)
+  name.vb: New(TaskType, String, String, String, Date?, TimeInterval)
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.CreateTaskDto(TaskManagerCore.Model.TaskType, string, string, string, System.DateTime?, TaskManagerCore.Model.TimeInterval)
+  fullName.vb: TaskManagerCore.Model.Dto.CreateTaskDto.New(TaskManagerCore.Model.TaskType, String, String, String, Date?, TaskManagerCore.Model.TimeInterval)
+  nameWithType: CreateTaskDto.CreateTaskDto(TaskType, string, string, string, DateTime?, TimeInterval)
+  nameWithType.vb: CreateTaskDto.New(TaskType, String, String, String, Date?, TimeInterval)
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.#ctor*
+  name: CreateTaskDto
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto__ctor_
+  commentId: Overload:TaskManagerCore.Model.Dto.CreateTaskDto.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.CreateTaskDto
+  fullName.vb: TaskManagerCore.Model.Dto.CreateTaskDto.New
+  nameWithType: CreateTaskDto.CreateTaskDto
+  nameWithType.vb: CreateTaskDto.New
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.Description
+  name: Description
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_Description
+  commentId: P:TaskManagerCore.Model.Dto.CreateTaskDto.Description
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.Description
+  nameWithType: CreateTaskDto.Description
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.Description*
+  name: Description
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_Description_
+  commentId: Overload:TaskManagerCore.Model.Dto.CreateTaskDto.Description
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.Description
+  nameWithType: CreateTaskDto.Description
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.DueDate
+  name: DueDate
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_DueDate
+  commentId: P:TaskManagerCore.Model.Dto.CreateTaskDto.DueDate
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.DueDate
+  nameWithType: CreateTaskDto.DueDate
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.DueDate*
+  name: DueDate
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_DueDate_
+  commentId: Overload:TaskManagerCore.Model.Dto.CreateTaskDto.DueDate
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.DueDate
+  nameWithType: CreateTaskDto.DueDate
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.InFolderId
+  name: InFolderId
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_InFolderId
+  commentId: P:TaskManagerCore.Model.Dto.CreateTaskDto.InFolderId
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.InFolderId
+  nameWithType: CreateTaskDto.InFolderId
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.InFolderId*
+  name: InFolderId
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_InFolderId_
+  commentId: Overload:TaskManagerCore.Model.Dto.CreateTaskDto.InFolderId
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.InFolderId
+  nameWithType: CreateTaskDto.InFolderId
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.Notes
+  name: Notes
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_Notes
+  commentId: P:TaskManagerCore.Model.Dto.CreateTaskDto.Notes
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.Notes
+  nameWithType: CreateTaskDto.Notes
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.Notes*
+  name: Notes
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_Notes_
+  commentId: Overload:TaskManagerCore.Model.Dto.CreateTaskDto.Notes
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.Notes
+  nameWithType: CreateTaskDto.Notes
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.RepeatInterval
+  name: RepeatInterval
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_RepeatInterval
+  commentId: P:TaskManagerCore.Model.Dto.CreateTaskDto.RepeatInterval
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.RepeatInterval
+  nameWithType: CreateTaskDto.RepeatInterval
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.RepeatInterval*
+  name: RepeatInterval
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_RepeatInterval_
+  commentId: Overload:TaskManagerCore.Model.Dto.CreateTaskDto.RepeatInterval
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.RepeatInterval
+  nameWithType: CreateTaskDto.RepeatInterval
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.TaskType
+  name: TaskType
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_TaskType
+  commentId: P:TaskManagerCore.Model.Dto.CreateTaskDto.TaskType
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.TaskType
+  nameWithType: CreateTaskDto.TaskType
+- uid: TaskManagerCore.Model.Dto.CreateTaskDto.TaskType*
+  name: TaskType
+  href: reference/TaskManagerCore.Model.Dto.CreateTaskDto.html#TaskManagerCore_Model_Dto_CreateTaskDto_TaskType_
+  commentId: Overload:TaskManagerCore.Model.Dto.CreateTaskDto.TaskType
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.CreateTaskDto.TaskType
+  nameWithType: CreateTaskDto.TaskType
+- uid: TaskManagerCore.Model.Dto.GetFolderDto
+  name: GetFolderDto
+  href: reference/TaskManagerCore.Model.Dto.GetFolderDto.html
+  commentId: T:TaskManagerCore.Model.Dto.GetFolderDto
+  fullName: TaskManagerCore.Model.Dto.GetFolderDto
+  nameWithType: GetFolderDto
+- uid: TaskManagerCore.Model.Dto.GetFolderDto.#ctor(System.String,System.String,System.Collections.Generic.List{System.String})
+  name: GetFolderDto(string, string, List<string>)
+  href: reference/TaskManagerCore.Model.Dto.GetFolderDto.html#TaskManagerCore_Model_Dto_GetFolderDto__ctor_System_String_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:TaskManagerCore.Model.Dto.GetFolderDto.#ctor(System.String,System.String,System.Collections.Generic.List{System.String})
+  name.vb: New(String, String, List(Of String))
+  fullName: TaskManagerCore.Model.Dto.GetFolderDto.GetFolderDto(string, string, System.Collections.Generic.List<string>)
+  fullName.vb: TaskManagerCore.Model.Dto.GetFolderDto.New(String, String, System.Collections.Generic.List(Of String))
+  nameWithType: GetFolderDto.GetFolderDto(string, string, List<string>)
+  nameWithType.vb: GetFolderDto.New(String, String, List(Of String))
+- uid: TaskManagerCore.Model.Dto.GetFolderDto.#ctor*
+  name: GetFolderDto
+  href: reference/TaskManagerCore.Model.Dto.GetFolderDto.html#TaskManagerCore_Model_Dto_GetFolderDto__ctor_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetFolderDto.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskManagerCore.Model.Dto.GetFolderDto.GetFolderDto
+  fullName.vb: TaskManagerCore.Model.Dto.GetFolderDto.New
+  nameWithType: GetFolderDto.GetFolderDto
+  nameWithType.vb: GetFolderDto.New
+- uid: TaskManagerCore.Model.Dto.GetFolderDto.Id
+  name: Id
+  href: reference/TaskManagerCore.Model.Dto.GetFolderDto.html#TaskManagerCore_Model_Dto_GetFolderDto_Id
+  commentId: P:TaskManagerCore.Model.Dto.GetFolderDto.Id
+  fullName: TaskManagerCore.Model.Dto.GetFolderDto.Id
+  nameWithType: GetFolderDto.Id
+- uid: TaskManagerCore.Model.Dto.GetFolderDto.Id*
+  name: Id
+  href: reference/TaskManagerCore.Model.Dto.GetFolderDto.html#TaskManagerCore_Model_Dto_GetFolderDto_Id_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetFolderDto.Id
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetFolderDto.Id
+  nameWithType: GetFolderDto.Id
+- uid: TaskManagerCore.Model.Dto.GetFolderDto.Name
+  name: Name
+  href: reference/TaskManagerCore.Model.Dto.GetFolderDto.html#TaskManagerCore_Model_Dto_GetFolderDto_Name
+  commentId: P:TaskManagerCore.Model.Dto.GetFolderDto.Name
+  fullName: TaskManagerCore.Model.Dto.GetFolderDto.Name
+  nameWithType: GetFolderDto.Name
+- uid: TaskManagerCore.Model.Dto.GetFolderDto.Name*
+  name: Name
+  href: reference/TaskManagerCore.Model.Dto.GetFolderDto.html#TaskManagerCore_Model_Dto_GetFolderDto_Name_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetFolderDto.Name
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetFolderDto.Name
+  nameWithType: GetFolderDto.Name
+- uid: TaskManagerCore.Model.Dto.GetFolderDto.TaskIds
+  name: TaskIds
+  href: reference/TaskManagerCore.Model.Dto.GetFolderDto.html#TaskManagerCore_Model_Dto_GetFolderDto_TaskIds
+  commentId: P:TaskManagerCore.Model.Dto.GetFolderDto.TaskIds
+  fullName: TaskManagerCore.Model.Dto.GetFolderDto.TaskIds
+  nameWithType: GetFolderDto.TaskIds
+- uid: TaskManagerCore.Model.Dto.GetFolderDto.TaskIds*
+  name: TaskIds
+  href: reference/TaskManagerCore.Model.Dto.GetFolderDto.html#TaskManagerCore_Model_Dto_GetFolderDto_TaskIds_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetFolderDto.TaskIds
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetFolderDto.TaskIds
+  nameWithType: GetFolderDto.TaskIds
+- uid: TaskManagerCore.Model.Dto.GetTaskDto
+  name: GetTaskDto
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html
+  commentId: T:TaskManagerCore.Model.Dto.GetTaskDto
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto
+  nameWithType: GetTaskDto
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.#ctor(TaskManagerCore.Model.TaskType,System.String,System.String,System.String,System.Boolean,System.Nullable{System.DateTime},System.Boolean,System.String)
+  name: GetTaskDto(TaskType, string, string, string, bool, DateTime?, bool, string?)
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto__ctor_TaskManagerCore_Model_TaskType_System_String_System_String_System_String_System_Boolean_System_Nullable_System_DateTime__System_Boolean_System_String_
+  commentId: M:TaskManagerCore.Model.Dto.GetTaskDto.#ctor(TaskManagerCore.Model.TaskType,System.String,System.String,System.String,System.Boolean,System.Nullable{System.DateTime},System.Boolean,System.String)
+  name.vb: New(TaskType, String, String, String, Boolean, Date?, Boolean, String)
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.GetTaskDto(TaskManagerCore.Model.TaskType, string, string, string, bool, System.DateTime?, bool, string?)
+  fullName.vb: TaskManagerCore.Model.Dto.GetTaskDto.New(TaskManagerCore.Model.TaskType, String, String, String, Boolean, Date?, Boolean, String)
+  nameWithType: GetTaskDto.GetTaskDto(TaskType, string, string, string, bool, DateTime?, bool, string?)
+  nameWithType.vb: GetTaskDto.New(TaskType, String, String, String, Boolean, Date?, Boolean, String)
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.#ctor*
+  name: GetTaskDto
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto__ctor_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.GetTaskDto
+  fullName.vb: TaskManagerCore.Model.Dto.GetTaskDto.New
+  nameWithType: GetTaskDto.GetTaskDto
+  nameWithType.vb: GetTaskDto.New
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData(System.Collections.Generic.Dictionary{System.String,System.String})
+  name: AddExtraData(Dictionary<string, string>)
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_AddExtraData_System_Collections_Generic_Dictionary_System_String_System_String__
+  commentId: M:TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData(System.Collections.Generic.Dictionary{System.String,System.String})
+  name.vb: AddExtraData(Dictionary(Of String, String))
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData(System.Collections.Generic.Dictionary<string, string>)
+  fullName.vb: TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData(System.Collections.Generic.Dictionary(Of String, String))
+  nameWithType: GetTaskDto.AddExtraData(Dictionary<string, string>)
+  nameWithType.vb: GetTaskDto.AddExtraData(Dictionary(Of String, String))
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData(System.String,System.String)
+  name: AddExtraData(string, string)
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_AddExtraData_System_String_System_String_
+  commentId: M:TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData(System.String,System.String)
+  name.vb: AddExtraData(String, String)
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData(string, string)
+  fullName.vb: TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData(String, String)
+  nameWithType: GetTaskDto.AddExtraData(string, string)
+  nameWithType.vb: GetTaskDto.AddExtraData(String, String)
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData*
+  name: AddExtraData
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_AddExtraData_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.AddExtraData
+  nameWithType: GetTaskDto.AddExtraData
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Completed
+  name: Completed
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Completed
+  commentId: P:TaskManagerCore.Model.Dto.GetTaskDto.Completed
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Completed
+  nameWithType: GetTaskDto.Completed
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Completed*
+  name: Completed
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Completed_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.Completed
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Completed
+  nameWithType: GetTaskDto.Completed
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Description
+  name: Description
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Description
+  commentId: P:TaskManagerCore.Model.Dto.GetTaskDto.Description
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Description
+  nameWithType: GetTaskDto.Description
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Description*
+  name: Description
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Description_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.Description
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Description
+  nameWithType: GetTaskDto.Description
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.DueDate
+  name: DueDate
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_DueDate
+  commentId: P:TaskManagerCore.Model.Dto.GetTaskDto.DueDate
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.DueDate
+  nameWithType: GetTaskDto.DueDate
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.DueDate*
+  name: DueDate
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_DueDate_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.DueDate
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.DueDate
+  nameWithType: GetTaskDto.DueDate
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Id
+  name: Id
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Id
+  commentId: P:TaskManagerCore.Model.Dto.GetTaskDto.Id
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Id
+  nameWithType: GetTaskDto.Id
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Id*
+  name: Id
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Id_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.Id
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Id
+  nameWithType: GetTaskDto.Id
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.InFolderId
+  name: InFolderId
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_InFolderId
+  commentId: P:TaskManagerCore.Model.Dto.GetTaskDto.InFolderId
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.InFolderId
+  nameWithType: GetTaskDto.InFolderId
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.InFolderId*
+  name: InFolderId
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_InFolderId_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.InFolderId
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.InFolderId
+  nameWithType: GetTaskDto.InFolderId
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Notes
+  name: Notes
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Notes
+  commentId: P:TaskManagerCore.Model.Dto.GetTaskDto.Notes
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Notes
+  nameWithType: GetTaskDto.Notes
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Notes*
+  name: Notes
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Notes_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.Notes
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Notes
+  nameWithType: GetTaskDto.Notes
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Overdue
+  name: Overdue
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Overdue
+  commentId: P:TaskManagerCore.Model.Dto.GetTaskDto.Overdue
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Overdue
+  nameWithType: GetTaskDto.Overdue
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Overdue*
+  name: Overdue
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Overdue_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.Overdue
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Overdue
+  nameWithType: GetTaskDto.Overdue
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Type
+  name: Type
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Type
+  commentId: P:TaskManagerCore.Model.Dto.GetTaskDto.Type
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Type
+  nameWithType: GetTaskDto.Type
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.Type*
+  name: Type
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_Type_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.Type
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.Type
+  nameWithType: GetTaskDto.Type
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.WithExtraData(System.Collections.Generic.Dictionary{System.String,System.String})
+  name: WithExtraData(Dictionary<string, string>)
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_WithExtraData_System_Collections_Generic_Dictionary_System_String_System_String__
+  commentId: M:TaskManagerCore.Model.Dto.GetTaskDto.WithExtraData(System.Collections.Generic.Dictionary{System.String,System.String})
+  name.vb: WithExtraData(Dictionary(Of String, String))
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.WithExtraData(System.Collections.Generic.Dictionary<string, string>)
+  fullName.vb: TaskManagerCore.Model.Dto.GetTaskDto.WithExtraData(System.Collections.Generic.Dictionary(Of String, String))
+  nameWithType: GetTaskDto.WithExtraData(Dictionary<string, string>)
+  nameWithType.vb: GetTaskDto.WithExtraData(Dictionary(Of String, String))
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.WithExtraData*
+  name: WithExtraData
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_WithExtraData_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.WithExtraData
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.WithExtraData
+  nameWithType: GetTaskDto.WithExtraData
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.XData
+  name: XData
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_XData
+  commentId: P:TaskManagerCore.Model.Dto.GetTaskDto.XData
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.XData
+  nameWithType: GetTaskDto.XData
+- uid: TaskManagerCore.Model.Dto.GetTaskDto.XData*
+  name: XData
+  href: reference/TaskManagerCore.Model.Dto.GetTaskDto.html#TaskManagerCore_Model_Dto_GetTaskDto_XData_
+  commentId: Overload:TaskManagerCore.Model.Dto.GetTaskDto.XData
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Dto.GetTaskDto.XData
+  nameWithType: GetTaskDto.XData
+- uid: TaskManagerCore.Model.HabitualTaskData
+  name: HabitualTaskData
+  href: reference/TaskManagerCore.Model.HabitualTaskData.html
+  commentId: T:TaskManagerCore.Model.HabitualTaskData
+  fullName: TaskManagerCore.Model.HabitualTaskData
+  nameWithType: HabitualTaskData
+- uid: TaskManagerCore.Model.HabitualTaskData.#ctor(System.String,System.String,System.DateTime,TaskManagerCore.Model.TimeInterval)
+  name: HabitualTaskData(string, string, DateTime, TimeInterval)
+  href: reference/TaskManagerCore.Model.HabitualTaskData.html#TaskManagerCore_Model_HabitualTaskData__ctor_System_String_System_String_System_DateTime_TaskManagerCore_Model_TimeInterval_
+  commentId: M:TaskManagerCore.Model.HabitualTaskData.#ctor(System.String,System.String,System.DateTime,TaskManagerCore.Model.TimeInterval)
+  name.vb: New(String, String, Date, TimeInterval)
+  fullName: TaskManagerCore.Model.HabitualTaskData.HabitualTaskData(string, string, System.DateTime, TaskManagerCore.Model.TimeInterval)
+  fullName.vb: TaskManagerCore.Model.HabitualTaskData.New(String, String, Date, TaskManagerCore.Model.TimeInterval)
+  nameWithType: HabitualTaskData.HabitualTaskData(string, string, DateTime, TimeInterval)
+  nameWithType.vb: HabitualTaskData.New(String, String, Date, TimeInterval)
+- uid: TaskManagerCore.Model.HabitualTaskData.#ctor(System.String,System.String,System.String,System.Boolean,System.DateTime,TaskManagerCore.Model.TimeInterval,System.Int32,System.Int32)
+  name: HabitualTaskData(string, string, string, bool, DateTime, TimeInterval, int, int)
+  href: reference/TaskManagerCore.Model.HabitualTaskData.html#TaskManagerCore_Model_HabitualTaskData__ctor_System_String_System_String_System_String_System_Boolean_System_DateTime_TaskManagerCore_Model_TimeInterval_System_Int32_System_Int32_
+  commentId: M:TaskManagerCore.Model.HabitualTaskData.#ctor(System.String,System.String,System.String,System.Boolean,System.DateTime,TaskManagerCore.Model.TimeInterval,System.Int32,System.Int32)
+  name.vb: New(String, String, String, Boolean, Date, TimeInterval, Integer, Integer)
+  fullName: TaskManagerCore.Model.HabitualTaskData.HabitualTaskData(string, string, string, bool, System.DateTime, TaskManagerCore.Model.TimeInterval, int, int)
+  fullName.vb: TaskManagerCore.Model.HabitualTaskData.New(String, String, String, Boolean, Date, TaskManagerCore.Model.TimeInterval, Integer, Integer)
+  nameWithType: HabitualTaskData.HabitualTaskData(string, string, string, bool, DateTime, TimeInterval, int, int)
+  nameWithType.vb: HabitualTaskData.New(String, String, String, Boolean, Date, TimeInterval, Integer, Integer)
+- uid: TaskManagerCore.Model.HabitualTaskData.#ctor*
+  name: HabitualTaskData
+  href: reference/TaskManagerCore.Model.HabitualTaskData.html#TaskManagerCore_Model_HabitualTaskData__ctor_
+  commentId: Overload:TaskManagerCore.Model.HabitualTaskData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskManagerCore.Model.HabitualTaskData.HabitualTaskData
+  fullName.vb: TaskManagerCore.Model.HabitualTaskData.New
+  nameWithType: HabitualTaskData.HabitualTaskData
+  nameWithType.vb: HabitualTaskData.New
+- uid: TaskManagerCore.Model.HabitualTaskData.Streak
+  name: Streak
+  href: reference/TaskManagerCore.Model.HabitualTaskData.html#TaskManagerCore_Model_HabitualTaskData_Streak
+  commentId: P:TaskManagerCore.Model.HabitualTaskData.Streak
+  fullName: TaskManagerCore.Model.HabitualTaskData.Streak
+  nameWithType: HabitualTaskData.Streak
+- uid: TaskManagerCore.Model.HabitualTaskData.Streak*
+  name: Streak
+  href: reference/TaskManagerCore.Model.HabitualTaskData.html#TaskManagerCore_Model_HabitualTaskData_Streak_
+  commentId: Overload:TaskManagerCore.Model.HabitualTaskData.Streak
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.HabitualTaskData.Streak
+  nameWithType: HabitualTaskData.Streak
+- uid: TaskManagerCore.Model.HabitualTaskData.WithCompleted(System.Boolean)
+  name: WithCompleted(bool)
+  href: reference/TaskManagerCore.Model.HabitualTaskData.html#TaskManagerCore_Model_HabitualTaskData_WithCompleted_System_Boolean_
+  commentId: M:TaskManagerCore.Model.HabitualTaskData.WithCompleted(System.Boolean)
+  name.vb: WithCompleted(Boolean)
+  fullName: TaskManagerCore.Model.HabitualTaskData.WithCompleted(bool)
+  fullName.vb: TaskManagerCore.Model.HabitualTaskData.WithCompleted(Boolean)
+  nameWithType: HabitualTaskData.WithCompleted(bool)
+  nameWithType.vb: HabitualTaskData.WithCompleted(Boolean)
+- uid: TaskManagerCore.Model.HabitualTaskData.WithCompleted*
+  name: WithCompleted
+  href: reference/TaskManagerCore.Model.HabitualTaskData.html#TaskManagerCore_Model_HabitualTaskData_WithCompleted_
+  commentId: Overload:TaskManagerCore.Model.HabitualTaskData.WithCompleted
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.HabitualTaskData.WithCompleted
+  nameWithType: HabitualTaskData.WithCompleted
+- uid: TaskManagerCore.Model.RepeatingTaskData
+  name: RepeatingTaskData
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html
+  commentId: T:TaskManagerCore.Model.RepeatingTaskData
+  fullName: TaskManagerCore.Model.RepeatingTaskData
+  nameWithType: RepeatingTaskData
+- uid: TaskManagerCore.Model.RepeatingTaskData.#ctor(System.String,System.String,System.DateTime,TaskManagerCore.Model.TimeInterval)
+  name: RepeatingTaskData(string, string, DateTime, TimeInterval)
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData__ctor_System_String_System_String_System_DateTime_TaskManagerCore_Model_TimeInterval_
+  commentId: M:TaskManagerCore.Model.RepeatingTaskData.#ctor(System.String,System.String,System.DateTime,TaskManagerCore.Model.TimeInterval)
+  name.vb: New(String, String, Date, TimeInterval)
+  fullName: TaskManagerCore.Model.RepeatingTaskData.RepeatingTaskData(string, string, System.DateTime, TaskManagerCore.Model.TimeInterval)
+  fullName.vb: TaskManagerCore.Model.RepeatingTaskData.New(String, String, Date, TaskManagerCore.Model.TimeInterval)
+  nameWithType: RepeatingTaskData.RepeatingTaskData(string, string, DateTime, TimeInterval)
+  nameWithType.vb: RepeatingTaskData.New(String, String, Date, TimeInterval)
+- uid: TaskManagerCore.Model.RepeatingTaskData.#ctor(System.String,System.String,System.String,System.Boolean,System.DateTime,TaskManagerCore.Model.TimeInterval,System.Int32)
+  name: RepeatingTaskData(string, string, string, bool, DateTime, TimeInterval, int)
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData__ctor_System_String_System_String_System_String_System_Boolean_System_DateTime_TaskManagerCore_Model_TimeInterval_System_Int32_
+  commentId: M:TaskManagerCore.Model.RepeatingTaskData.#ctor(System.String,System.String,System.String,System.Boolean,System.DateTime,TaskManagerCore.Model.TimeInterval,System.Int32)
+  name.vb: New(String, String, String, Boolean, Date, TimeInterval, Integer)
+  fullName: TaskManagerCore.Model.RepeatingTaskData.RepeatingTaskData(string, string, string, bool, System.DateTime, TaskManagerCore.Model.TimeInterval, int)
+  fullName.vb: TaskManagerCore.Model.RepeatingTaskData.New(String, String, String, Boolean, Date, TaskManagerCore.Model.TimeInterval, Integer)
+  nameWithType: RepeatingTaskData.RepeatingTaskData(string, string, string, bool, DateTime, TimeInterval, int)
+  nameWithType.vb: RepeatingTaskData.New(String, String, String, Boolean, Date, TimeInterval, Integer)
+- uid: TaskManagerCore.Model.RepeatingTaskData.#ctor*
+  name: RepeatingTaskData
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData__ctor_
+  commentId: Overload:TaskManagerCore.Model.RepeatingTaskData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskManagerCore.Model.RepeatingTaskData.RepeatingTaskData
+  fullName.vb: TaskManagerCore.Model.RepeatingTaskData.New
+  nameWithType: RepeatingTaskData.RepeatingTaskData
+  nameWithType.vb: RepeatingTaskData.New
+- uid: TaskManagerCore.Model.RepeatingTaskData.DueDate
+  name: DueDate
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData_DueDate
+  commentId: P:TaskManagerCore.Model.RepeatingTaskData.DueDate
+  fullName: TaskManagerCore.Model.RepeatingTaskData.DueDate
+  nameWithType: RepeatingTaskData.DueDate
+- uid: TaskManagerCore.Model.RepeatingTaskData.DueDate*
+  name: DueDate
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData_DueDate_
+  commentId: Overload:TaskManagerCore.Model.RepeatingTaskData.DueDate
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.RepeatingTaskData.DueDate
+  nameWithType: RepeatingTaskData.DueDate
+- uid: TaskManagerCore.Model.RepeatingTaskData.RepeatingInterval
+  name: RepeatingInterval
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData_RepeatingInterval
+  commentId: P:TaskManagerCore.Model.RepeatingTaskData.RepeatingInterval
+  fullName: TaskManagerCore.Model.RepeatingTaskData.RepeatingInterval
+  nameWithType: RepeatingTaskData.RepeatingInterval
+- uid: TaskManagerCore.Model.RepeatingTaskData.RepeatingInterval*
+  name: RepeatingInterval
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData_RepeatingInterval_
+  commentId: Overload:TaskManagerCore.Model.RepeatingTaskData.RepeatingInterval
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.RepeatingTaskData.RepeatingInterval
+  nameWithType: RepeatingTaskData.RepeatingInterval
+- uid: TaskManagerCore.Model.RepeatingTaskData.Repetitions
+  name: Repetitions
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData_Repetitions
+  commentId: P:TaskManagerCore.Model.RepeatingTaskData.Repetitions
+  fullName: TaskManagerCore.Model.RepeatingTaskData.Repetitions
+  nameWithType: RepeatingTaskData.Repetitions
+- uid: TaskManagerCore.Model.RepeatingTaskData.Repetitions*
+  name: Repetitions
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData_Repetitions_
+  commentId: Overload:TaskManagerCore.Model.RepeatingTaskData.Repetitions
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.RepeatingTaskData.Repetitions
+  nameWithType: RepeatingTaskData.Repetitions
+- uid: TaskManagerCore.Model.RepeatingTaskData.WithCompleted(System.Boolean)
+  name: WithCompleted(bool)
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData_WithCompleted_System_Boolean_
+  commentId: M:TaskManagerCore.Model.RepeatingTaskData.WithCompleted(System.Boolean)
+  name.vb: WithCompleted(Boolean)
+  fullName: TaskManagerCore.Model.RepeatingTaskData.WithCompleted(bool)
+  fullName.vb: TaskManagerCore.Model.RepeatingTaskData.WithCompleted(Boolean)
+  nameWithType: RepeatingTaskData.WithCompleted(bool)
+  nameWithType.vb: RepeatingTaskData.WithCompleted(Boolean)
+- uid: TaskManagerCore.Model.RepeatingTaskData.WithCompleted*
+  name: WithCompleted
+  href: reference/TaskManagerCore.Model.RepeatingTaskData.html#TaskManagerCore_Model_RepeatingTaskData_WithCompleted_
+  commentId: Overload:TaskManagerCore.Model.RepeatingTaskData.WithCompleted
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.RepeatingTaskData.WithCompleted
+  nameWithType: RepeatingTaskData.WithCompleted
+- uid: TaskManagerCore.Model.Repository
+  name: TaskManagerCore.Model.Repository
+  href: reference/TaskManagerCore.Model.Repository.html
+  commentId: N:TaskManagerCore.Model.Repository
+  fullName: TaskManagerCore.Model.Repository
+  nameWithType: TaskManagerCore.Model.Repository
+- uid: TaskManagerCore.Model.Repository.ITaskDataRepository
+  name: ITaskDataRepository
+  href: reference/TaskManagerCore.Model.Repository.ITaskDataRepository.html
+  commentId: T:TaskManagerCore.Model.Repository.ITaskDataRepository
+  fullName: TaskManagerCore.Model.Repository.ITaskDataRepository
+  nameWithType: ITaskDataRepository
+- uid: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByCompleted(System.Boolean)
+  name: FindByCompleted(bool)
+  href: reference/TaskManagerCore.Model.Repository.ITaskDataRepository.html#TaskManagerCore_Model_Repository_ITaskDataRepository_FindByCompleted_System_Boolean_
+  commentId: M:TaskManagerCore.Model.Repository.ITaskDataRepository.FindByCompleted(System.Boolean)
+  name.vb: FindByCompleted(Boolean)
+  fullName: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByCompleted(bool)
+  fullName.vb: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByCompleted(Boolean)
+  nameWithType: ITaskDataRepository.FindByCompleted(bool)
+  nameWithType.vb: ITaskDataRepository.FindByCompleted(Boolean)
+- uid: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByCompleted*
+  name: FindByCompleted
+  href: reference/TaskManagerCore.Model.Repository.ITaskDataRepository.html#TaskManagerCore_Model_Repository_ITaskDataRepository_FindByCompleted_
+  commentId: Overload:TaskManagerCore.Model.Repository.ITaskDataRepository.FindByCompleted
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByCompleted
+  nameWithType: ITaskDataRepository.FindByCompleted
+- uid: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDescription(System.String)
+  name: FindByDescription(string)
+  href: reference/TaskManagerCore.Model.Repository.ITaskDataRepository.html#TaskManagerCore_Model_Repository_ITaskDataRepository_FindByDescription_System_String_
+  commentId: M:TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDescription(System.String)
+  name.vb: FindByDescription(String)
+  fullName: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDescription(string)
+  fullName.vb: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDescription(String)
+  nameWithType: ITaskDataRepository.FindByDescription(string)
+  nameWithType.vb: ITaskDataRepository.FindByDescription(String)
+- uid: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDescription*
+  name: FindByDescription
+  href: reference/TaskManagerCore.Model.Repository.ITaskDataRepository.html#TaskManagerCore_Model_Repository_ITaskDataRepository_FindByDescription_
+  commentId: Overload:TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDescription
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDescription
+  nameWithType: ITaskDataRepository.FindByDescription
+- uid: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDueDate(System.DateTime)
+  name: FindByDueDate(DateTime)
+  href: reference/TaskManagerCore.Model.Repository.ITaskDataRepository.html#TaskManagerCore_Model_Repository_ITaskDataRepository_FindByDueDate_System_DateTime_
+  commentId: M:TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDueDate(System.DateTime)
+  name.vb: FindByDueDate(Date)
+  fullName: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDueDate(System.DateTime)
+  fullName.vb: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDueDate(Date)
+  nameWithType: ITaskDataRepository.FindByDueDate(DateTime)
+  nameWithType.vb: ITaskDataRepository.FindByDueDate(Date)
+- uid: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDueDate*
+  name: FindByDueDate
+  href: reference/TaskManagerCore.Model.Repository.ITaskDataRepository.html#TaskManagerCore_Model_Repository_ITaskDataRepository_FindByDueDate_
+  commentId: Overload:TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDueDate
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByDueDate
+  nameWithType: ITaskDataRepository.FindByDueDate
+- uid: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByNotes(System.String)
+  name: FindByNotes(string)
+  href: reference/TaskManagerCore.Model.Repository.ITaskDataRepository.html#TaskManagerCore_Model_Repository_ITaskDataRepository_FindByNotes_System_String_
+  commentId: M:TaskManagerCore.Model.Repository.ITaskDataRepository.FindByNotes(System.String)
+  name.vb: FindByNotes(String)
+  fullName: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByNotes(string)
+  fullName.vb: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByNotes(String)
+  nameWithType: ITaskDataRepository.FindByNotes(string)
+  nameWithType.vb: ITaskDataRepository.FindByNotes(String)
+- uid: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByNotes*
+  name: FindByNotes
+  href: reference/TaskManagerCore.Model.Repository.ITaskDataRepository.html#TaskManagerCore_Model_Repository_ITaskDataRepository_FindByNotes_
+  commentId: Overload:TaskManagerCore.Model.Repository.ITaskDataRepository.FindByNotes
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Repository.ITaskDataRepository.FindByNotes
+  nameWithType: ITaskDataRepository.FindByNotes
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository
+  name: ITaskFolderRepository
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html
+  commentId: T:TaskManagerCore.Model.Repository.ITaskFolderRepository
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository
+  nameWithType: ITaskFolderRepository
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.DeleteByName(System.String)
+  name: DeleteByName(string)
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_DeleteByName_System_String_
+  commentId: M:TaskManagerCore.Model.Repository.ITaskFolderRepository.DeleteByName(System.String)
+  name.vb: DeleteByName(String)
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.DeleteByName(string)
+  fullName.vb: TaskManagerCore.Model.Repository.ITaskFolderRepository.DeleteByName(String)
+  nameWithType: ITaskFolderRepository.DeleteByName(string)
+  nameWithType.vb: ITaskFolderRepository.DeleteByName(String)
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.DeleteByName*
+  name: DeleteByName
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_DeleteByName_
+  commentId: Overload:TaskManagerCore.Model.Repository.ITaskFolderRepository.DeleteByName
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.DeleteByName
+  nameWithType: ITaskFolderRepository.DeleteByName
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByName(System.String)
+  name: FindByName(string)
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_FindByName_System_String_
+  commentId: M:TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByName(System.String)
+  name.vb: FindByName(String)
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByName(string)
+  fullName.vb: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByName(String)
+  nameWithType: ITaskFolderRepository.FindByName(string)
+  nameWithType.vb: ITaskFolderRepository.FindByName(String)
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByName*
+  name: FindByName
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_FindByName_
+  commentId: Overload:TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByName
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByName
+  nameWithType: ITaskFolderRepository.FindByName
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByNameStartsWith(System.String)
+  name: FindByNameStartsWith(string)
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_FindByNameStartsWith_System_String_
+  commentId: M:TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByNameStartsWith(System.String)
+  name.vb: FindByNameStartsWith(String)
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByNameStartsWith(string)
+  fullName.vb: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByNameStartsWith(String)
+  nameWithType: ITaskFolderRepository.FindByNameStartsWith(string)
+  nameWithType.vb: ITaskFolderRepository.FindByNameStartsWith(String)
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByNameStartsWith*
+  name: FindByNameStartsWith
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_FindByNameStartsWith_
+  commentId: Overload:TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByNameStartsWith
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindByNameStartsWith
+  nameWithType: ITaskFolderRepository.FindByNameStartsWith
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindEmpty
+  name: FindEmpty()
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_FindEmpty
+  commentId: M:TaskManagerCore.Model.Repository.ITaskFolderRepository.FindEmpty
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindEmpty()
+  nameWithType: ITaskFolderRepository.FindEmpty()
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindEmpty*
+  name: FindEmpty
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_FindEmpty_
+  commentId: Overload:TaskManagerCore.Model.Repository.ITaskFolderRepository.FindEmpty
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindEmpty
+  nameWithType: ITaskFolderRepository.FindEmpty
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindNotEmpty
+  name: FindNotEmpty()
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_FindNotEmpty
+  commentId: M:TaskManagerCore.Model.Repository.ITaskFolderRepository.FindNotEmpty
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindNotEmpty()
+  nameWithType: ITaskFolderRepository.FindNotEmpty()
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindNotEmpty*
+  name: FindNotEmpty
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_FindNotEmpty_
+  commentId: Overload:TaskManagerCore.Model.Repository.ITaskFolderRepository.FindNotEmpty
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindNotEmpty
+  nameWithType: ITaskFolderRepository.FindNotEmpty
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindOneByName(System.String)
+  name: FindOneByName(string)
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_FindOneByName_System_String_
+  commentId: M:TaskManagerCore.Model.Repository.ITaskFolderRepository.FindOneByName(System.String)
+  name.vb: FindOneByName(String)
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindOneByName(string)
+  fullName.vb: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindOneByName(String)
+  nameWithType: ITaskFolderRepository.FindOneByName(string)
+  nameWithType.vb: ITaskFolderRepository.FindOneByName(String)
+- uid: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindOneByName*
+  name: FindOneByName
+  href: reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html#TaskManagerCore_Model_Repository_ITaskFolderRepository_FindOneByName_
+  commentId: Overload:TaskManagerCore.Model.Repository.ITaskFolderRepository.FindOneByName
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.Repository.ITaskFolderRepository.FindOneByName
+  nameWithType: ITaskFolderRepository.FindOneByName
+- uid: TaskManagerCore.Model.TaskData
+  name: TaskData
+  href: reference/TaskManagerCore.Model.TaskData.html
+  commentId: T:TaskManagerCore.Model.TaskData
+  fullName: TaskManagerCore.Model.TaskData
+  nameWithType: TaskData
+- uid: TaskManagerCore.Model.TaskData.#ctor(System.String)
+  name: TaskData(string)
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData__ctor_System_String_
+  commentId: M:TaskManagerCore.Model.TaskData.#ctor(System.String)
+  name.vb: New(String)
+  fullName: TaskManagerCore.Model.TaskData.TaskData(string)
+  fullName.vb: TaskManagerCore.Model.TaskData.New(String)
+  nameWithType: TaskData.TaskData(string)
+  nameWithType.vb: TaskData.New(String)
+- uid: TaskManagerCore.Model.TaskData.#ctor(System.String,System.String,System.Nullable{System.DateTime})
+  name: TaskData(string, string, DateTime?)
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData__ctor_System_String_System_String_System_Nullable_System_DateTime__
+  commentId: M:TaskManagerCore.Model.TaskData.#ctor(System.String,System.String,System.Nullable{System.DateTime})
+  name.vb: New(String, String, Date?)
+  fullName: TaskManagerCore.Model.TaskData.TaskData(string, string, System.DateTime?)
+  fullName.vb: TaskManagerCore.Model.TaskData.New(String, String, Date?)
+  nameWithType: TaskData.TaskData(string, string, DateTime?)
+  nameWithType.vb: TaskData.New(String, String, Date?)
+- uid: TaskManagerCore.Model.TaskData.#ctor(System.String,System.String,System.String,System.Boolean,System.Nullable{System.DateTime})
+  name: TaskData(string, string, string, bool, DateTime?)
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData__ctor_System_String_System_String_System_String_System_Boolean_System_Nullable_System_DateTime__
+  commentId: M:TaskManagerCore.Model.TaskData.#ctor(System.String,System.String,System.String,System.Boolean,System.Nullable{System.DateTime})
+  name.vb: New(String, String, String, Boolean, Date?)
+  fullName: TaskManagerCore.Model.TaskData.TaskData(string, string, string, bool, System.DateTime?)
+  fullName.vb: TaskManagerCore.Model.TaskData.New(String, String, String, Boolean, Date?)
+  nameWithType: TaskData.TaskData(string, string, string, bool, DateTime?)
+  nameWithType.vb: TaskData.New(String, String, String, Boolean, Date?)
+- uid: TaskManagerCore.Model.TaskData.#ctor*
+  name: TaskData
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData__ctor_
+  commentId: Overload:TaskManagerCore.Model.TaskData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskManagerCore.Model.TaskData.TaskData
+  fullName.vb: TaskManagerCore.Model.TaskData.New
+  nameWithType: TaskData.TaskData
+  nameWithType.vb: TaskData.New
+- uid: TaskManagerCore.Model.TaskData.ComparisonTime
+  name: ComparisonTime()
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_ComparisonTime
+  commentId: M:TaskManagerCore.Model.TaskData.ComparisonTime
+  fullName: TaskManagerCore.Model.TaskData.ComparisonTime()
+  nameWithType: TaskData.ComparisonTime()
+- uid: TaskManagerCore.Model.TaskData.ComparisonTime*
+  name: ComparisonTime
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_ComparisonTime_
+  commentId: Overload:TaskManagerCore.Model.TaskData.ComparisonTime
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.ComparisonTime
+  nameWithType: TaskData.ComparisonTime
+- uid: TaskManagerCore.Model.TaskData.Completed
+  name: Completed
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_Completed
+  commentId: P:TaskManagerCore.Model.TaskData.Completed
+  fullName: TaskManagerCore.Model.TaskData.Completed
+  nameWithType: TaskData.Completed
+- uid: TaskManagerCore.Model.TaskData.Completed*
+  name: Completed
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_Completed_
+  commentId: Overload:TaskManagerCore.Model.TaskData.Completed
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.Completed
+  nameWithType: TaskData.Completed
+- uid: TaskManagerCore.Model.TaskData.Description
+  name: Description
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_Description
+  commentId: P:TaskManagerCore.Model.TaskData.Description
+  fullName: TaskManagerCore.Model.TaskData.Description
+  nameWithType: TaskData.Description
+- uid: TaskManagerCore.Model.TaskData.Description*
+  name: Description
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_Description_
+  commentId: Overload:TaskManagerCore.Model.TaskData.Description
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.Description
+  nameWithType: TaskData.Description
+- uid: TaskManagerCore.Model.TaskData.DueDate
+  name: DueDate
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_DueDate
+  commentId: P:TaskManagerCore.Model.TaskData.DueDate
+  fullName: TaskManagerCore.Model.TaskData.DueDate
+  nameWithType: TaskData.DueDate
+- uid: TaskManagerCore.Model.TaskData.DueDate*
+  name: DueDate
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_DueDate_
+  commentId: Overload:TaskManagerCore.Model.TaskData.DueDate
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.DueDate
+  nameWithType: TaskData.DueDate
+- uid: TaskManagerCore.Model.TaskData.Id
+  name: Id
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_Id
+  commentId: P:TaskManagerCore.Model.TaskData.Id
+  fullName: TaskManagerCore.Model.TaskData.Id
+  nameWithType: TaskData.Id
+- uid: TaskManagerCore.Model.TaskData.Id*
+  name: Id
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_Id_
+  commentId: Overload:TaskManagerCore.Model.TaskData.Id
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.Id
+  nameWithType: TaskData.Id
+- uid: TaskManagerCore.Model.TaskData.IsOverdue
+  name: IsOverdue()
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_IsOverdue
+  commentId: M:TaskManagerCore.Model.TaskData.IsOverdue
+  fullName: TaskManagerCore.Model.TaskData.IsOverdue()
+  nameWithType: TaskData.IsOverdue()
+- uid: TaskManagerCore.Model.TaskData.IsOverdue*
+  name: IsOverdue
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_IsOverdue_
+  commentId: Overload:TaskManagerCore.Model.TaskData.IsOverdue
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.IsOverdue
+  nameWithType: TaskData.IsOverdue
+- uid: TaskManagerCore.Model.TaskData.Notes
+  name: Notes
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_Notes
+  commentId: P:TaskManagerCore.Model.TaskData.Notes
+  fullName: TaskManagerCore.Model.TaskData.Notes
+  nameWithType: TaskData.Notes
+- uid: TaskManagerCore.Model.TaskData.Notes*
+  name: Notes
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_Notes_
+  commentId: Overload:TaskManagerCore.Model.TaskData.Notes
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.Notes
+  nameWithType: TaskData.Notes
+- uid: TaskManagerCore.Model.TaskData.Overdue
+  name: Overdue
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_Overdue
+  commentId: P:TaskManagerCore.Model.TaskData.Overdue
+  fullName: TaskManagerCore.Model.TaskData.Overdue
+  nameWithType: TaskData.Overdue
+- uid: TaskManagerCore.Model.TaskData.Overdue*
+  name: Overdue
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_Overdue_
+  commentId: Overload:TaskManagerCore.Model.TaskData.Overdue
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.Overdue
+  nameWithType: TaskData.Overdue
+- uid: TaskManagerCore.Model.TaskData.WithCompleted(System.Boolean)
+  name: WithCompleted(bool)
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_WithCompleted_System_Boolean_
+  commentId: M:TaskManagerCore.Model.TaskData.WithCompleted(System.Boolean)
+  name.vb: WithCompleted(Boolean)
+  fullName: TaskManagerCore.Model.TaskData.WithCompleted(bool)
+  fullName.vb: TaskManagerCore.Model.TaskData.WithCompleted(Boolean)
+  nameWithType: TaskData.WithCompleted(bool)
+  nameWithType.vb: TaskData.WithCompleted(Boolean)
+- uid: TaskManagerCore.Model.TaskData.WithCompleted*
+  name: WithCompleted
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_WithCompleted_
+  commentId: Overload:TaskManagerCore.Model.TaskData.WithCompleted
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.WithCompleted
+  nameWithType: TaskData.WithCompleted
+- uid: TaskManagerCore.Model.TaskData.WithDescription(System.String)
+  name: WithDescription(string)
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_WithDescription_System_String_
+  commentId: M:TaskManagerCore.Model.TaskData.WithDescription(System.String)
+  name.vb: WithDescription(String)
+  fullName: TaskManagerCore.Model.TaskData.WithDescription(string)
+  fullName.vb: TaskManagerCore.Model.TaskData.WithDescription(String)
+  nameWithType: TaskData.WithDescription(string)
+  nameWithType.vb: TaskData.WithDescription(String)
+- uid: TaskManagerCore.Model.TaskData.WithDescription*
+  name: WithDescription
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_WithDescription_
+  commentId: Overload:TaskManagerCore.Model.TaskData.WithDescription
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.WithDescription
+  nameWithType: TaskData.WithDescription
+- uid: TaskManagerCore.Model.TaskData.WithDueDate(System.Nullable{System.DateTime})
+  name: WithDueDate(DateTime?)
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_WithDueDate_System_Nullable_System_DateTime__
+  commentId: M:TaskManagerCore.Model.TaskData.WithDueDate(System.Nullable{System.DateTime})
+  name.vb: WithDueDate(Date?)
+  fullName: TaskManagerCore.Model.TaskData.WithDueDate(System.DateTime?)
+  fullName.vb: TaskManagerCore.Model.TaskData.WithDueDate(Date?)
+  nameWithType: TaskData.WithDueDate(DateTime?)
+  nameWithType.vb: TaskData.WithDueDate(Date?)
+- uid: TaskManagerCore.Model.TaskData.WithDueDate*
+  name: WithDueDate
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_WithDueDate_
+  commentId: Overload:TaskManagerCore.Model.TaskData.WithDueDate
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.WithDueDate
+  nameWithType: TaskData.WithDueDate
+- uid: TaskManagerCore.Model.TaskData.WithNotes(System.String)
+  name: WithNotes(string)
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_WithNotes_System_String_
+  commentId: M:TaskManagerCore.Model.TaskData.WithNotes(System.String)
+  name.vb: WithNotes(String)
+  fullName: TaskManagerCore.Model.TaskData.WithNotes(string)
+  fullName.vb: TaskManagerCore.Model.TaskData.WithNotes(String)
+  nameWithType: TaskData.WithNotes(string)
+  nameWithType.vb: TaskData.WithNotes(String)
+- uid: TaskManagerCore.Model.TaskData.WithNotes*
+  name: WithNotes
+  href: reference/TaskManagerCore.Model.TaskData.html#TaskManagerCore_Model_TaskData_WithNotes_
+  commentId: Overload:TaskManagerCore.Model.TaskData.WithNotes
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskData.WithNotes
+  nameWithType: TaskData.WithNotes
+- uid: TaskManagerCore.Model.TaskFolder
+  name: TaskFolder
+  href: reference/TaskManagerCore.Model.TaskFolder.html
+  commentId: T:TaskManagerCore.Model.TaskFolder
+  fullName: TaskManagerCore.Model.TaskFolder
+  nameWithType: TaskFolder
+- uid: TaskManagerCore.Model.TaskFolder.#ctor(System.String)
+  name: TaskFolder(string)
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder__ctor_System_String_
+  commentId: M:TaskManagerCore.Model.TaskFolder.#ctor(System.String)
+  name.vb: New(String)
+  fullName: TaskManagerCore.Model.TaskFolder.TaskFolder(string)
+  fullName.vb: TaskManagerCore.Model.TaskFolder.New(String)
+  nameWithType: TaskFolder.TaskFolder(string)
+  nameWithType.vb: TaskFolder.New(String)
+- uid: TaskManagerCore.Model.TaskFolder.#ctor(System.String,System.String,System.Collections.Generic.List{System.String})
+  name: TaskFolder(string, string, List<string>)
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder__ctor_System_String_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:TaskManagerCore.Model.TaskFolder.#ctor(System.String,System.String,System.Collections.Generic.List{System.String})
+  name.vb: New(String, String, List(Of String))
+  fullName: TaskManagerCore.Model.TaskFolder.TaskFolder(string, string, System.Collections.Generic.List<string>)
+  fullName.vb: TaskManagerCore.Model.TaskFolder.New(String, String, System.Collections.Generic.List(Of String))
+  nameWithType: TaskFolder.TaskFolder(string, string, List<string>)
+  nameWithType.vb: TaskFolder.New(String, String, List(Of String))
+- uid: TaskManagerCore.Model.TaskFolder.#ctor*
+  name: TaskFolder
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder__ctor_
+  commentId: Overload:TaskManagerCore.Model.TaskFolder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskManagerCore.Model.TaskFolder.TaskFolder
+  fullName.vb: TaskManagerCore.Model.TaskFolder.New
+  nameWithType: TaskFolder.TaskFolder
+  nameWithType.vb: TaskFolder.New
+- uid: TaskManagerCore.Model.TaskFolder.Id
+  name: Id
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_Id
+  commentId: P:TaskManagerCore.Model.TaskFolder.Id
+  fullName: TaskManagerCore.Model.TaskFolder.Id
+  nameWithType: TaskFolder.Id
+- uid: TaskManagerCore.Model.TaskFolder.Id*
+  name: Id
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_Id_
+  commentId: Overload:TaskManagerCore.Model.TaskFolder.Id
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskFolder.Id
+  nameWithType: TaskFolder.Id
+- uid: TaskManagerCore.Model.TaskFolder.Name
+  name: Name
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_Name
+  commentId: P:TaskManagerCore.Model.TaskFolder.Name
+  fullName: TaskManagerCore.Model.TaskFolder.Name
+  nameWithType: TaskFolder.Name
+- uid: TaskManagerCore.Model.TaskFolder.Name*
+  name: Name
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_Name_
+  commentId: Overload:TaskManagerCore.Model.TaskFolder.Name
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskFolder.Name
+  nameWithType: TaskFolder.Name
+- uid: TaskManagerCore.Model.TaskFolder.TaskIds
+  name: TaskIds
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_TaskIds
+  commentId: P:TaskManagerCore.Model.TaskFolder.TaskIds
+  fullName: TaskManagerCore.Model.TaskFolder.TaskIds
+  nameWithType: TaskFolder.TaskIds
+- uid: TaskManagerCore.Model.TaskFolder.TaskIds*
+  name: TaskIds
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_TaskIds_
+  commentId: Overload:TaskManagerCore.Model.TaskFolder.TaskIds
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskFolder.TaskIds
+  nameWithType: TaskFolder.TaskIds
+- uid: TaskManagerCore.Model.TaskFolder.WithName(System.String)
+  name: WithName(string)
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_WithName_System_String_
+  commentId: M:TaskManagerCore.Model.TaskFolder.WithName(System.String)
+  name.vb: WithName(String)
+  fullName: TaskManagerCore.Model.TaskFolder.WithName(string)
+  fullName.vb: TaskManagerCore.Model.TaskFolder.WithName(String)
+  nameWithType: TaskFolder.WithName(string)
+  nameWithType.vb: TaskFolder.WithName(String)
+- uid: TaskManagerCore.Model.TaskFolder.WithName*
+  name: WithName
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_WithName_
+  commentId: Overload:TaskManagerCore.Model.TaskFolder.WithName
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskFolder.WithName
+  nameWithType: TaskFolder.WithName
+- uid: TaskManagerCore.Model.TaskFolder.WithTask(System.String)
+  name: WithTask(string)
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_WithTask_System_String_
+  commentId: M:TaskManagerCore.Model.TaskFolder.WithTask(System.String)
+  name.vb: WithTask(String)
+  fullName: TaskManagerCore.Model.TaskFolder.WithTask(string)
+  fullName.vb: TaskManagerCore.Model.TaskFolder.WithTask(String)
+  nameWithType: TaskFolder.WithTask(string)
+  nameWithType.vb: TaskFolder.WithTask(String)
+- uid: TaskManagerCore.Model.TaskFolder.WithTask*
+  name: WithTask
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_WithTask_
+  commentId: Overload:TaskManagerCore.Model.TaskFolder.WithTask
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskFolder.WithTask
+  nameWithType: TaskFolder.WithTask
+- uid: TaskManagerCore.Model.TaskFolder.WithoutTask(System.String)
+  name: WithoutTask(string)
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_WithoutTask_System_String_
+  commentId: M:TaskManagerCore.Model.TaskFolder.WithoutTask(System.String)
+  name.vb: WithoutTask(String)
+  fullName: TaskManagerCore.Model.TaskFolder.WithoutTask(string)
+  fullName.vb: TaskManagerCore.Model.TaskFolder.WithoutTask(String)
+  nameWithType: TaskFolder.WithoutTask(string)
+  nameWithType.vb: TaskFolder.WithoutTask(String)
+- uid: TaskManagerCore.Model.TaskFolder.WithoutTask*
+  name: WithoutTask
+  href: reference/TaskManagerCore.Model.TaskFolder.html#TaskManagerCore_Model_TaskFolder_WithoutTask_
+  commentId: Overload:TaskManagerCore.Model.TaskFolder.WithoutTask
+  isSpec: "True"
+  fullName: TaskManagerCore.Model.TaskFolder.WithoutTask
+  nameWithType: TaskFolder.WithoutTask
+- uid: TaskManagerCore.Model.TaskType
+  name: TaskType
+  href: reference/TaskManagerCore.Model.TaskType.html
+  commentId: T:TaskManagerCore.Model.TaskType
+  fullName: TaskManagerCore.Model.TaskType
+  nameWithType: TaskType
+- uid: TaskManagerCore.Model.TaskType.REPEATING
+  name: REPEATING
+  href: reference/TaskManagerCore.Model.TaskType.html#TaskManagerCore_Model_TaskType_REPEATING
+  commentId: F:TaskManagerCore.Model.TaskType.REPEATING
+  fullName: TaskManagerCore.Model.TaskType.REPEATING
+  nameWithType: TaskType.REPEATING
+- uid: TaskManagerCore.Model.TaskType.REPEATING_STREAK
+  name: REPEATING_STREAK
+  href: reference/TaskManagerCore.Model.TaskType.html#TaskManagerCore_Model_TaskType_REPEATING_STREAK
+  commentId: F:TaskManagerCore.Model.TaskType.REPEATING_STREAK
+  fullName: TaskManagerCore.Model.TaskType.REPEATING_STREAK
+  nameWithType: TaskType.REPEATING_STREAK
+- uid: TaskManagerCore.Model.TaskType.SINGLE
+  name: SINGLE
+  href: reference/TaskManagerCore.Model.TaskType.html#TaskManagerCore_Model_TaskType_SINGLE
+  commentId: F:TaskManagerCore.Model.TaskType.SINGLE
+  fullName: TaskManagerCore.Model.TaskType.SINGLE
+  nameWithType: TaskType.SINGLE
+- uid: TaskManagerCore.Model.TimeInterval
+  name: TimeInterval
+  href: reference/TaskManagerCore.Model.TimeInterval.html
+  commentId: T:TaskManagerCore.Model.TimeInterval
+  fullName: TaskManagerCore.Model.TimeInterval
+  nameWithType: TimeInterval
+- uid: TaskManagerCore.Model.TimeInterval.Daily
+  name: Daily
+  href: reference/TaskManagerCore.Model.TimeInterval.html#TaskManagerCore_Model_TimeInterval_Daily
+  commentId: F:TaskManagerCore.Model.TimeInterval.Daily
+  fullName: TaskManagerCore.Model.TimeInterval.Daily
+  nameWithType: TimeInterval.Daily
+- uid: TaskManagerCore.Model.TimeInterval.Fortnightly
+  name: Fortnightly
+  href: reference/TaskManagerCore.Model.TimeInterval.html#TaskManagerCore_Model_TimeInterval_Fortnightly
+  commentId: F:TaskManagerCore.Model.TimeInterval.Fortnightly
+  fullName: TaskManagerCore.Model.TimeInterval.Fortnightly
+  nameWithType: TimeInterval.Fortnightly
+- uid: TaskManagerCore.Model.TimeInterval.Hourly
+  name: Hourly
+  href: reference/TaskManagerCore.Model.TimeInterval.html#TaskManagerCore_Model_TimeInterval_Hourly
+  commentId: F:TaskManagerCore.Model.TimeInterval.Hourly
+  fullName: TaskManagerCore.Model.TimeInterval.Hourly
+  nameWithType: TimeInterval.Hourly
+- uid: TaskManagerCore.Model.TimeInterval.Monthly
+  name: Monthly
+  href: reference/TaskManagerCore.Model.TimeInterval.html#TaskManagerCore_Model_TimeInterval_Monthly
+  commentId: F:TaskManagerCore.Model.TimeInterval.Monthly
+  fullName: TaskManagerCore.Model.TimeInterval.Monthly
+  nameWithType: TimeInterval.Monthly
+- uid: TaskManagerCore.Model.TimeInterval.None
+  name: None
+  href: reference/TaskManagerCore.Model.TimeInterval.html#TaskManagerCore_Model_TimeInterval_None
+  commentId: F:TaskManagerCore.Model.TimeInterval.None
+  fullName: TaskManagerCore.Model.TimeInterval.None
+  nameWithType: TimeInterval.None
+- uid: TaskManagerCore.Model.TimeInterval.Weekly
+  name: Weekly
+  href: reference/TaskManagerCore.Model.TimeInterval.html#TaskManagerCore_Model_TimeInterval_Weekly
+  commentId: F:TaskManagerCore.Model.TimeInterval.Weekly
+  fullName: TaskManagerCore.Model.TimeInterval.Weekly
+  nameWithType: TimeInterval.Weekly
+- uid: TaskManagerCore.Model.TimeInterval.Yearly
+  name: Yearly
+  href: reference/TaskManagerCore.Model.TimeInterval.html#TaskManagerCore_Model_TimeInterval_Yearly
+  commentId: F:TaskManagerCore.Model.TimeInterval.Yearly
+  fullName: TaskManagerCore.Model.TimeInterval.Yearly
+  nameWithType: TimeInterval.Yearly
+- uid: TaskManagerCore.TaskManagerFactory
+  name: TaskManagerFactory
+  href: reference/TaskManagerCore.TaskManagerFactory.html
+  commentId: T:TaskManagerCore.TaskManagerFactory
+  fullName: TaskManagerCore.TaskManagerFactory
+  nameWithType: TaskManagerFactory
+- uid: TaskManagerCore.TaskManagerFactory.CreateDefaultTaskManager
+  name: CreateDefaultTaskManager()
+  href: reference/TaskManagerCore.TaskManagerFactory.html#TaskManagerCore_TaskManagerFactory_CreateDefaultTaskManager
+  commentId: M:TaskManagerCore.TaskManagerFactory.CreateDefaultTaskManager
+  fullName: TaskManagerCore.TaskManagerFactory.CreateDefaultTaskManager()
+  nameWithType: TaskManagerFactory.CreateDefaultTaskManager()
+- uid: TaskManagerCore.TaskManagerFactory.CreateDefaultTaskManager*
+  name: CreateDefaultTaskManager
+  href: reference/TaskManagerCore.TaskManagerFactory.html#TaskManagerCore_TaskManagerFactory_CreateDefaultTaskManager_
+  commentId: Overload:TaskManagerCore.TaskManagerFactory.CreateDefaultTaskManager
+  isSpec: "True"
+  fullName: TaskManagerCore.TaskManagerFactory.CreateDefaultTaskManager
+  nameWithType: TaskManagerFactory.CreateDefaultTaskManager

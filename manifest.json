@@ -1,0 +1,454 @@
+{
+  "source_base_path": "D:/tafe/c# oop/portfolio/Session 3/Task Manager - Part 1/TaskManagerProject/TaskManager/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": ".attachments/copy-code-button-copied.png",
+      "output": {
+        "resource": {
+          "relative_path": ".attachments/copy-code-button-copied.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": ".attachments/copy-code-button.png",
+      "output": {
+        "resource": {
+          "relative_path": ".attachments/copy-code-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": ".docfx/x-cross/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": ".docfx/x-cross/toc.html"
+        },
+        ".json": {
+          "relative_path": ".docfx/x-cross/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "general/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "general/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "general/architecture-decisions/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "general/architecture-decisions/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "general/architecture-decisions/decision-log.md",
+      "output": {
+        ".html": {
+          "relative_path": "general/architecture-decisions/decision-log.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "general/getting-started/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "general/getting-started/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "general/getting-started/copy-code-button.md",
+      "output": {
+        ".html": {
+          "relative_path": "general/getting-started/copy-code-button.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "general/guidelines/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "general/guidelines/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "general/guidelines/docs-guidelines.md",
+      "output": {
+        ".html": {
+          "relative_path": "general/guidelines/docs-guidelines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "general/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "general/toc.html"
+        },
+        ".json": {
+          "relative_path": "general/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/smiley.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/smiley.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Configuration.ICrudRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Configuration.ICrudRepository-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Controller.TaskController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Controller.TaskController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Controller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.Dto.CreateFolderDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.Dto.CreateFolderDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.Dto.CreateTaskDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.Dto.CreateTaskDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.Dto.GetFolderDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.Dto.GetFolderDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.Dto.GetTaskDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.Dto.GetTaskDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.Dto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.Dto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.HabitualTaskData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.HabitualTaskData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.RepeatingTaskData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.RepeatingTaskData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.Repository.ITaskDataRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.Repository.ITaskDataRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.Repository.ITaskFolderRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.Repository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.TaskData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.TaskData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.TaskFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.TaskFolder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.TaskType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.TaskType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.TimeInterval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.TimeInterval.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.TaskManagerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.TaskManagerFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/TaskManagerCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/TaskManagerCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "reference/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/toc.html"
+        },
+        ".json": {
+          "relative_path": "reference/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "services/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "services/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "services/TaskController/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "services/TaskController/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "services/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "services/toc.html"
+        },
+        ".json": {
+          "relative_path": "services/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "web.config",
+      "output": {
+        "resource": {
+          "relative_path": "web.config"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
